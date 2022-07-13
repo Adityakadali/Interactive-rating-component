@@ -40,7 +40,7 @@ body {
   background-color: var(--nuetral-dark-blue);
   margin: 1em;
   padding: 1.5em;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 /* Utility classes */
