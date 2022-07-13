@@ -5,6 +5,7 @@ var card = document.querySelector(".card");
 // adding event listeners to the ul
 ratingList.forEach((element) =>
   element.addEventListener("click", (event) => {
+    ratingList.forEach((element) => element.classList.remove("selected"));
     element.classList.add("selected");
     rating = element.id;
   })
