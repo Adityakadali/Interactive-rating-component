@@ -104,6 +104,11 @@ h2 {
   margin: 10px 0;
 }
 
+.selected {
+  background-color: var(--primary-orange);
+  color: var(--neutral-white);
+}
+
 .rating:hover {
   background-color: var(--primary-orange);
   color: var(--neutral-white);

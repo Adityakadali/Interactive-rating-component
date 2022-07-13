@@ -5,6 +5,7 @@ var card = document.querySelector(".card");
 // adding event listeners to the ul
 ratingList.forEach((element) =>
   element.addEventListener("click", (event) => {
+    element.classList.add("selected");
     rating = element.id;
   })
 );
@@ -24,6 +25,6 @@ button.addEventListener("click", (event) => {
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-    `
+    `;
   }
 });
