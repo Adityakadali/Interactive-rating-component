@@ -30,6 +30,3 @@ Then I went writing JavaScript and added event listeners to update card componen
 ## Author
 - Aditya Kadali
 - Twitter - [@adityakadali](https://www.twitter.com/adityakadali)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
